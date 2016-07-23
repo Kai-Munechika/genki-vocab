@@ -28,8 +28,8 @@ $.when.apply(null, reqs).then(function () {
         data: {
             kanjiMode: false,
             lessonFilter: null,
-            vocab: [],
-            kanji: [],
+            vocab: null,
+            kanji: null,
 
             selectedKanji: null
         }
